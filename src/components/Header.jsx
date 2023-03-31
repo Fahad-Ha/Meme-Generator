@@ -1,10 +1,11 @@
 import React from "react"
+import icon from "consulting.png"
 
 export default function Header() {
     return (
         <header className="header">
             <img 
-                src="src/images/consulting.png" 
+                src={icon} 
                 className="header--image"
             />
             <h2 className="header--title">Meme Generator</h2>

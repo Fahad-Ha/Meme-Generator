@@ -1,5 +1,5 @@
 import React from "react"
-import icon from "./consulting.png"
+import icon from "../images/troll-face.png"
 
 export default function Header() {
     return (
